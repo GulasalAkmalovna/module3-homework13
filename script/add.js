@@ -1,24 +1,25 @@
 // ..........  N1 ..................
 // function number() {
 //     let num = +prompt("Enter a number");
-// let arr = []
-// for ( let i = 0; i < num; i++){
-//    arr.push(i)
-// }
-// console.log(arr)
+
+//     let arr = []
+
+//     for ( let i = 0; i <= num; i++){
+//         arr.push(i)
+//     }
+//     console.log(arr)
 // }
 // number()
 
 // ............ N2 .................
 
-// function getArray(params) {
+// function getArray() {
 //     let n = +prompt("Enter a degree number");
-//     let num = 2;
-//     let array = [];
-//     for ( let i = 0; i <= n; i++){
-//        array.push(Math.pow(num,i))
+//     let newArr = []
+//     for ( let i = 1; i <= n; i++){
+//         newArr.push(Math.pow(2,i))
 //     }
-//     return array
+//     return newArr
 // }
 // let result = getArray()
 // console.log(result)
